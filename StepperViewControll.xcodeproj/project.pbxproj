@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		41A0594B1DA6CC3100F41FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0594A1DA6CC3100F41FEA /* main.m */; };
 		41A0594E1DA6CC3100F41FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0594D1DA6CC3100F41FEA /* AppDelegate.m */; };
-		41A059511DA6CC3100F41FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059501DA6CC3100F41FEA /* ViewController.m */; };
 		41A059541DA6CC3100F41FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A059521DA6CC3100F41FEA /* Main.storyboard */; };
 		41A059571DA6CC3200F41FEA /* StepperViewControll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A059551DA6CC3200F41FEA /* StepperViewControll.xcdatamodeld */; };
 		41A059591DA6CC3200F41FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A059581DA6CC3200F41FEA /* Assets.xcassets */; };
 		41A0595C1DA6CC3200F41FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0595A1DA6CC3200F41FEA /* LaunchScreen.storyboard */; };
 		41A059671DA6CC3300F41FEA /* StepperViewControllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059661DA6CC3300F41FEA /* StepperViewControllTests.m */; };
 		41A059721DA6CC3300F41FEA /* StepperViewControllUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059711DA6CC3300F41FEA /* StepperViewControllUITests.m */; };
+		41A059811DA6CCBA00F41FEA /* Stepper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059801DA6CCBA00F41FEA /* Stepper.m */; };
+		41A059841DA6CD2800F41FEA /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A059831DA6CD2800F41FEA /* CustomerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 		41A0594A1DA6CC3100F41FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41A0594C1DA6CC3100F41FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41A0594D1DA6CC3100F41FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		41A0594F1DA6CC3100F41FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		41A059501DA6CC3100F41FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41A059531DA6CC3100F41FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A059561DA6CC3200F41FEA /* StepperViewControll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StepperViewControll.xcdatamodel; sourceTree = "<group>"; };
 		41A059581DA6CC3200F41FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,10 @@
 		41A0596D1DA6CC3300F41FEA /* StepperViewControllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepperViewControllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A059711DA6CC3300F41FEA /* StepperViewControllUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepperViewControllUITests.m; sourceTree = "<group>"; };
 		41A059731DA6CC3300F41FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A0597F1DA6CCBA00F41FEA /* Stepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stepper.h; sourceTree = "<group>"; };
+		41A059801DA6CCBA00F41FEA /* Stepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stepper.m; sourceTree = "<group>"; };
+		41A059821DA6CD2800F41FEA /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		41A059831DA6CD2800F41FEA /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +108,14 @@
 			children = (
 				41A0594C1DA6CC3100F41FEA /* AppDelegate.h */,
 				41A0594D1DA6CC3100F41FEA /* AppDelegate.m */,
-				41A0594F1DA6CC3100F41FEA /* ViewController.h */,
-				41A059501DA6CC3100F41FEA /* ViewController.m */,
 				41A059521DA6CC3100F41FEA /* Main.storyboard */,
 				41A059581DA6CC3200F41FEA /* Assets.xcassets */,
 				41A0595A1DA6CC3200F41FEA /* LaunchScreen.storyboard */,
 				41A0595D1DA6CC3200F41FEA /* Info.plist */,
+				41A0597F1DA6CCBA00F41FEA /* Stepper.h */,
+				41A059801DA6CCBA00F41FEA /* Stepper.m */,
+				41A059821DA6CD2800F41FEA /* CustomerViewController.h */,
+				41A059831DA6CD2800F41FEA /* CustomerViewController.m */,
 				41A059551DA6CC3200F41FEA /* StepperViewControll.xcdatamodeld */,
 				41A059491DA6CC3100F41FEA /* Supporting Files */,
 			);
@@ -279,10 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A059511DA6CC3100F41FEA /* ViewController.m in Sources */,
 				41A0594E1DA6CC3100F41FEA /* AppDelegate.m in Sources */,
 				41A059571DA6CC3200F41FEA /* StepperViewControll.xcdatamodeld in Sources */,
 				41A0594B1DA6CC3100F41FEA /* main.m in Sources */,
+				41A059811DA6CCBA00F41FEA /* Stepper.m in Sources */,
+				41A059841DA6CD2800F41FEA /* CustomerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
